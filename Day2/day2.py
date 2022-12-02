@@ -1,7 +1,6 @@
 with open("input.txt", "r") as file:
     score=0
     for line in file:
-        line = line.rstrip("\n")
         match line[0], line[2]:
             case 'A', 'X':
                 score += 3
