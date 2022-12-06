@@ -1,7 +1,6 @@
 with open("input.txt") as file:
     for line in file:
         temp = []
-        line = line.rstrip("\n")
         for i in range(0,len(line)):
             temp.append(line[i])
             if len(temp) == 14: # 4
